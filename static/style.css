@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap')
+body{
+    margin : 0;
+    font-family:system-ui;
+}
+.parallax{
+    /*background-image: url(edho.jpeg);*/
+    height: 400px;
+    background-color: #28193d;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*.center{
+    height:auto;
+}*/
+
+.page-title{
+    background-image: url('Ankur.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    text-align:center;
+    padding: 150px;
+    letter-spacing: 10px;
+}
+.sticky{
+    position: fixed;
+    top:0;
+    width: 100%;
+}
+.menu{
+    background-color: #69558d ;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+
+}
+.menu-ul{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+.menu-ul li{
+    font-size: 20px;
+    list-style: none;
+    display: inline-block;
+    padding: 25px 25px 26px 25px;
+}
+
+.a-menu{
+    text-decoration: none;
+    color: azure;
+}
+.menu-ul li:hover{
+    background: #dddcde;
+    transform: scale(1.1);
+}
+if{
+    font-size: 20px;
+    margin: 0 10px 0 0;
+}
+button{
+    background: fixed;
+}
+.home{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+h1{
+    font-size: 36px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+}
+p{
+    color: #777;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 22px;
+    padding: 10px;
+
+}
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+.home-col{
+    flex-basis: 31%;
+    background: #dad0de;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    padding: 20px 12px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+h3{
+    text-align: center;
+    font-weight: 600;
+    margin: 10px 0;
+}
+.home-col:hover{
+    box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+}
+/*body{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(okatiinblog.jpeg);
+}*/
+.blog{
+    background-color: #d2cae1 ;
+    background-size:contain;
+    background-position: 0%;
+    background-attachment: fixed;
+    width: 500%;
+    border: 20px solid #69558d;
+    height: 100px solid #fff;
+    font-family: source sans Pro,sans-serif;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 700px;
+    margin-bottom: 20px;
+}
+.paragraph{
+    border-left: 5px #28193d;
+    padding-left: 5px;
+    font-weight: 100;
+    color: #777;
+}
+.h2{
+    font-size: 20px;
+    color: #777;
+
+}
+hr{
+    border:0;
+    height: 0;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+
+}
+.para{
+    color: #777;
+}
+.mypdf {
+    background-color: #69558d;
+    box-sizing: content-box;
+    width: 100%;
+    height:700px;
+    margin-left: 500px;
+}/*
+@media(max-width:700px){
+    .mypdf{
+
+        width : 100%;
+        padding-left: 30px;
+    }
+     
+
+}*/
+.footer{
+    margin: 0;
+    overflow-x: hidden;
+    background:#28193d;
+    padding:30px 0px;
+    font-family: 'Play', sans-serif;
+    text-align:center;
+}
+    
+.footer .row{
+    width:100%;
+    margin:1% 0%;
+    padding:0.6% 0%;
+    color:gray;
+    font-size:0.9em;
+}
+    
+.footer .row a{
+    text-decoration:none;
+    color:gray;
+    transition:0.5s;
+}
+    
+    
+.footer .row ul{
+    width:200%;
+}
+    
+.footer .row ul li{
+    display:inline-block;
+    margin:0px 30px;
+}
+    
+    
+@media (max-width:720px){
+    .footer{
+    text-align:left;
+    padding:5%;
+    }
+    .footer .row ul li{
+    display:block;
+    margin:10px 0px;
+    text-align:left;
+    }
+    .footer .row a i{
+    margin:0% 3%;
+}}
+/*.wrapper{
+    background-color: #d2cae1 ;
+    background-size:contain;
+    background-position: 0%;
+    background-attachment: fixed;
+    width: 500%;
+    border: 20px solid #69558d;
+    height: 100px solid #fff;
+    font-family: source sans Pro,sans-serif;
+    padding: 30px;
+    margin: 20px auto;
+    max-width: 700px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.wrapper .form{
+    width: 100%;
+}
+.wrapper .form .input_field{
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+.wrapper .form .input_field label{
+    width: 200px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.wrapper .form .input_field .input{
+    outline: none;
+    border: #28193d;
+    font-size: 15px;
+    padding: 8px 10px;
+    border-radius: 3px;
+    transition: all 0.3s ease;
+
+}
+.wrapper .form .input_field .custom_select{
+    position: relative;
+    width: 100%;
+    height: 37px;
+}
+.wrapper .form .input_field .custom_select select{
+    border: 1px #28193d;
+}*/
+.wrapper {
+    padding-top: 50px;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .form {
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-color: #69558d;
+    border-radius: 5px;
+  }
+  
+  .input_field {
+    margin-bottom: 15px;
+  }
+  
+  .input_field label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .input_field .custom_select {
+    position: relative;
+    width: 100%;
+  }
+  
+  .input_field .custom_select select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px #69558d;
+  }
+  
+  .input_field .input {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #69558d;
+  }
+  
+  .input_field .btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #69558d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input_field .btn:hover {
+    background-color: #69558d;
+  }
+
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.p1{
+    padding-top: 100px;
+}
+/*.mypdf {
+    width: 100%;
+    height: 100%;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .mypdf {
+      height: 700px; 
+    }
+}*/
+.ok{
+    font-size: large;
+}
+select{
+    appearance: none;
+}

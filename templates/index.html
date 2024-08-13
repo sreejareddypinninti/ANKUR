@@ -1,0 +1,272 @@
+<html>
+<head>
+<META NAME="Author" CONTENT="">
+<META NAME="Keywords" CONTENT="">
+<META NAME="Description" CONTENT="">
+<link rel="stylesheet" href=".\static\style.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    function stickyMenu(){
+        var sticky=document.getElementById('sticky');
+        if(window.pageYOffset>220){
+            sticky.classList.add('sticky');
+        }
+        else{
+            sticky.classList.remove('sticky');
+        }
+    }
+    window.onscroll=function(){
+        stickyMenu();
+    }
+</script>
+  
+  
+</head>
+<body>
+
+    <div class="parallax p1">
+        <div class="page-title"></div>
+    </div>
+    <div class="menu" id="sticky">
+        <ul class="menu-ul">
+            <a href="/" class="a-menu"><li>HOME</li></a>
+            <a href="#BLOG" class="a-menu"><li>BLOG</li></a>
+            <a href="#ehe" class="a-menu"><li>YIELD PREDICTION</li></a>
+            <a href="#pdf" class="a-menu"><li>DATA</li></a>
+        </ul>
+    </div>
+
+<!--</head>
+<div>
+    <nav class="navbar fixed-top navbar-expand-md bg-dark navbar-dark">
+        <a class="navbar-brand" href="#"><span style="margin-right: 5px;">ANKUR</span></a>
+        <img src="Ankur.png" alt="logo" width="60px" height="60px">
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav ms-auto custom-class">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="@">Predict Yield</a>
+            </li>
+          </ul>
+        </div>  
+      </nav>
+    </div>
+      <div class="parallax">
+        
+            <img src="Ankur.png" height="100px" class="center">
+
+        <img src="Ankur.png" class="center">-->
+    </div>
+    <!--Home page begins-->
+    <div class="container">
+        <a href=""></a>
+
+    </div>
+    <!--Home page ends-->
+    <div class="home" id="HOME">
+        <h1>Salient Features</h1>
+        <div class="row">
+            <div class="home-col">
+                <h3>User-Friendly Interface</h3>
+                <p>
+                    Our website offers a user-friendly interface that is easy to navigate, making it accessible to farmers, agronomists, and other users. The intuitive design allows users to input their specific parameters and quickly obtain the desired crop yield predictions without any technical expertise.
+                </p>
+            </div>
+            <div class="home-col">
+                <h3>Accurate Yield Predictions</h3>
+                <p>
+                    Our website utilizes advanced algorithms and machine learning techniques to provide highly accurate crop yield predictions. By analyzing historical data, weather patterns, soil conditions, and other relevant factors, we can generate precise forecasts for different crops and regions, including the entire region of Telangana.
+                </p>
+            </div>
+            <div class="home-col">
+                <h3>Historical Data Analysis</h3>
+                <p>
+                    Our website offers access to extensive historical data on crop yields in Telangana. Farmers can explore past trends, analyze performance over time, and gain valuable insights into the factors that influence crop productivity. This historical data empowers users to make informed decisions based on a deep understanding of the region's agricultural dynamics.
+                </p>
+            </div>
+        </div>
+    </div>
+        <div id="BLOG">
+            <h1>Blog</h1></div>
+            <div class="blog">
+                <p></p>
+                <p></p>
+                <div class="ok">Importance</div>
+                <p class="paragraph">
+                    Crop yield prediction is an essential task for the decision-makers at national and regional levels for rapid decision-making. An accurate crop yield prediction model can help farmers to decide on what to grow and when to grow. 
+                </p>
+                <p class="para">To prepare for the coming disaster, developing nations like India with their exponential population increase should concentrate on cutting-edge agricultural technologies. Early-stage crop yield prediction is one of the most important activities since it is one of the most difficult tasks in precision agriculture because it necessitates a thorough comprehension of the growth pattern with the highly nonlinear characteristics. </p>
+                <hr>
+                <div class="ok">Factors effecting the crop</div>
+                <p class="paragraph"> Environmental factors including humidity, temperature, and rainfall, as well as management techniques like irrigation, herbicides, and fertilizers, are quite dynamic and differ from field to field. Data for the proposed work were gathered over a 10 year period from five different fields like Cotton, Maize, Rice, Wheat and Groundnut in 32 districts across Telangana.
+                </p>
+                <p class="para">Title :Crop Yield Prediction System using cloud-based Machine Learning models across Telangana state.Data Set Collection :Crop yield is primarily dependent on attributes like temperature, Rainfall, Irrigation level, soil type and also  on soil nutrients ( M,N,K,Zn,Cu). We predicted yield based on these parameters and data is collected from different sources</p>
+                <a href="https://agricoop.nic.in/sites/default/files/pocketbook_0.pdf" target="_blank" style="color: rgb(22, 182, 179);">https://agricoop.nic.in/sites/default/files/pocketbook_0.pdf </a> 
+                        <a href="https://data.telangana.gov.in/dataset/telangana.gov.in" target="_blank" style="color:rgb(22, 182, 179);">https://data.telangana.gov.in/dataset/telangana.gov.in</a>
+                        <a href="http://data.desagri.gov.in/website/crops-apy-report-web" target="_blank" style="color: rgb(22, 182, 179);">http://data.desagri.gov.in/website/crops-apy-report-web</a>
+            </div>
+            <div id="pdf">
+            <h1>Data</h1>
+            <p></p>
+            <p></p>
+                <iframe class="mypdf" src=".\static\namasthe.pdf" frameborder="0"></iframe>
+              
+        </div>
+        <h1>Yield Prediction</h1>
+        <div class="wrapper" id="ehe">
+            <p></p>
+            <p></p>
+            <form action="/predict" method="post">
+            <div class="form">
+            
+                  
+                <div class="input_field">
+                    <label>District Name</label>
+                    <div class="custom_select">
+                        <select name="district" required>
+                            <option value="">Select</option>
+                            <option value="District_Adilabad">Adilabad</option>
+                        <option value="District_Bhadradri Kothagudem">Bhadradri Kothagudem</option>
+                        <option value="District_Jagtial">Jagtial</option>
+                        <option value="District_Jangoan">Jangoan</option>
+                        <option value="District_Jayashankar Bhoopalpally">Jayashankar Bhoopalpally</option>
+                        <option value="District_Jogulamba Gadwal">Jogulamba Gadwal</option>
+                        <option value="District_Kamareddy">Kamareddy</option>
+                        <option value="District_Karimnagar">Karimnagar</option>
+                        <option value="District_Khammam">Khammam</option>
+                        <option value="District_Komaram bheem asifabad">Komaram bheem asifabad</option>
+                        <option value="District_Mahabubabad">Mahabubabad</option>
+                        <option value="District_Mahabubnagar">Mahabubnagar</option>
+                        <option value="District_Mancherial">Mancherial</option>
+                        <option value="District_Medak">Medak</option>
+                        <option value="District_Medchal-Malkajgiri">Medchal-Malkajgiri</option>
+                        <option value="District_Mulug">Mulug</option>
+                        <option value="District_Nagarkurnool">Nagarkurnool</option>
+                        <option value="District_Nalgonda">Nalgonda</option>
+                        <option value="District_Narayanpet">Narayanpet</option>
+                        <option value="District_Nirmal">Nirmal</option>
+                        <option value="District_Nizamabad">Nizamabad</option>
+                        <option value="District_Peddapalli">Peddapalli</option>
+                        <option value="District_Rajanna Sircilla">Rajanna Sircilla</option>
+                        <option value="District_Rangareddy">Rangareddy</option>
+                        <option value="District_Sangareddy">Sangareddy</option>
+                        <option value="District_Siddipet">Siddipet</option>
+                        <option value="District_Suryapet">Suryapet</option>
+                        <option value="District_Vikarabad">Vikarabad</option>
+                        <option value="District_Wanaparthy">Wanaparthy</option>
+                        <option value="District_Warangal">Warangal</option>
+                        <option value="District_Hanumakonda">Hanumakonda</option>
+                        <option value="District_Yadadri Bhuvanagiri">Yadadri Bhuvanagiri</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <label>Season</label>
+                    <div class="custom_select">
+                        <select name="season" required>
+                            <option value="">Select</option>
+                            <option value="Rabi">Rabi</option>
+                            <option value="Kharif">Kharif</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="input_field">
+                    <label>Crop</label>
+                <div class="custom_select">
+                        <select name="crop" required>
+                            <option value="">Select</option>
+                            <option value="cotton(lint)">cotton(lint)</option>
+                            <option value="Maize">Maize</option>
+                            <option value="Moong(Green Gram)">Moong(Green Gram)</option>
+                            <option value="Rice">Rice</option>
+                            <option value="Groundnut">Groundnut</option>
+                        </select>
+                    </div>
+                </div>
+                 <div class="input_field">
+                    <label>Rainfall(mm)</label>
+                    <input required type="number" step="any"  min="0.5" max="283" name="rainfall" value="87.9">
+                </div>
+                <div class="input_field">
+                    <label>Minimum Temperature(C)</label>
+                    <input required type="number" step="any" name="Minimum temperature" value="23.13" min="2" max="40">
+                </div>
+                <div class="input_field">
+                    <label>Maximum Temperature(C)</label>
+                    <input required type="number" step="any" name="Maximum temperature" value="40.34" min="25" max="55">
+                </div>
+                <div class="input_field">
+                    <label>Ph</label>
+                    <input required type="number" step="any" name="ph" value="7.26" min="1" max="14">
+                </div>
+                <div class="input_field">
+                    <label>N(Kg/Hectare)</label>
+                    <input required type="number" step="any" name="n" value="219.54">
+                </div>
+                <div class="input_field">
+                    <label>P(Kg/Hectare)</label>
+                    <input required type="number" step="any" name="p" value="34.37">
+                </div>
+                <div class="input_field">
+                    <label>K(Kg/Hectare)</label>
+                    <input required type="number" step="any" name="k" value="304.37">
+                </div>
+                <div class="input_field">
+                    <label>Zn(ppm)</label>
+                    <input required type="number" step="any" name="zn" value="1.37">
+                </div>
+                <div class="input_field">
+                    <label>Fe(ppm)</label>
+                    <input required type="number" step="any" name="fe" value="13.66">
+                </div>
+                <div class="input_field">
+                    <label>Cu(ppm)</label>
+                    <input required type="number" step="any" name="cu" value="1.88">
+                </div>
+                <div class="input_field">
+                    <label>Mn(ppm)</label>
+                    <input required type="number" step="any" name="mn" value="12.79">
+                </div>
+                <div class="input_field">
+                    <label>Irrigation(MGBL)</label>
+                    <input required type="number" step="any" name="irrigation" value="11.48" min="1" max="33">
+                </div>
+                <div class="input_field">
+                    <input type="submit" value="Predict" style="background-color: #a792ad;">
+                </div>                
+            </form>
+            </div>
+            <p id="output"><h1>Yield:  <b>{{out}} </b> tonnes per hectare</h1>
+            </p>
+        </div>
+<footer>
+<div class="footer">
+
+<div class="row">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#BLOG">Blog</a></li>
+<li><a href="#ehe">Yield Prediction</a></li>
+<li><a href="#pdf">Data</a></li>
+</ul>
+</div>
+
+<div class="row">
+INFERNO Copyright © 2023 Inferno - All rights reserved || Designed By: Pinninti Sreeja Reddy
+</div>
+</div>
+</footer>
+        
+    </body>
+
+</html>
